@@ -53,7 +53,7 @@ public class Adapter extends PagerAdapter {
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(context, DetailActivity.class);
+                Intent intent = new Intent(context, CardDemoActivity.class);
                 intent.putExtra("param", models.get(position).getTitle());
                 context.startActivity(intent);
                 // finish();

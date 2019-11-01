@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".IniciarSesion"></activity>
+        <activity android:name=".CardDemoActivity"></activity>
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".DetailActivity"></activity>
         <activity android:name=".Splash">
