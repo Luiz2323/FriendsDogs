@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controlador.Menu">
+
+    <ImageView
+        android:id="@+id/btnveterinarias"
+        android:layout_width="426dp"
+        android:layout_height="163dp"
+        android:src="@drawable/btnveterinaria"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="143dp"
+        android:layout_height="47dp"
+        android:fontFamily="@font/letra"
+        android:text="veterinarias"
+        android:textColor="#672117"
+        android:textSize="30sp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/btnveterinarias"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnveterinarias" />
+
+
+    <ImageView
+        android:id="@+id/btnnotas"
+        android:layout_width="426dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="8dp"
+
+        android:src="@drawable/btnnotas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnveterinarias"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <TextView
+        android:layout_width="81dp"
+        android:layout_height="46dp"
+        android:fontFamily="@font/letra"
+        android:text="Notas"
+        android:textColor="#672117"
+        android:textSize="30sp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/btnnotas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="@+id/btnnotas"
+        app:layout_constraintTop_toTopOf="@+id/btnnotas"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <ImageView
+        android:id="@+id/btnhistorias"
+        android:layout_width="426dp"
+        android:layout_height="163dp"
+        android:src="@drawable/btnhistorias"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnnotas" />
+
+
+    <TextView
+        android:layout_width="202dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/letra"
+        android:text="Historias Clinicas"
+        android:textColor="#672117"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnhistorias"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.641"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnnotas"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <ImageView
+        android:id="@+id/toolbar"
+        android:layout_width="425dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/toolbar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnhistorias" />
+
+    <ImageView
+        android:id="@+id/btncinfigcount"
+        android:layout_width="67dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/configuracuenta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnconfigapp"
+        android:layout_width="70dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/configapp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
