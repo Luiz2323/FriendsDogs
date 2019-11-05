@@ -7,7 +7,7 @@
     tools:context=".controlador.Login">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/logo"
         android:layout_width="402dp"
         android:layout_height="369dp"
         android:layout_marginTop="196dp"
@@ -34,13 +34,13 @@
         android:text="Sing in"
         android:textColor="#672117"
         android:textSize="50sp"
-        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintBottom_toTopOf="@+id/txtemail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/textDocumento"
         android:layout_width="638dp"
         android:layout_height="88dp"
         android:layout_marginTop="40dp"
@@ -53,10 +53,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/txtemail" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/txtemail"
         android:layout_width="638dp"
         android:layout_height="88dp"
         android:layout_marginTop="84dp"
@@ -69,11 +69,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnlogin"
         android:layout_width="483dp"
         android:layout_height="95dp"
         android:layout_marginTop="24dp"
@@ -86,7 +86,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/textDocumento" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -98,7 +98,7 @@
         android:src="@drawable/bocaperro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/btnlogin"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,7 +7,7 @@
     tools:context=".controlador.Login">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/logo"
         android:layout_width="223dp"
         android:layout_height="227dp"
         android:layout_marginTop="4dp"
@@ -33,13 +33,13 @@
         android:textSize="30sp"
         android:fontFamily="@font/letra"
         android:textColor="#672117"
-        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintBottom_toTopOf="@+id/txtemail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/textDocumento"
         android:layout_width="351dp"
         android:layout_height="63dp"
         android:layout_marginTop="40dp"
@@ -52,10 +52,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/txtemail" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/txtemail"
         android:layout_width="351dp"
         android:layout_height="63dp"
         android:layout_marginTop="84dp"
@@ -68,11 +68,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
 
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnlogin"
         android:layout_width="306dp"
         android:layout_height="67dp"
         android:layout_marginTop="24dp"
@@ -83,7 +83,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/textDocumento" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -92,7 +92,7 @@
         android:src="@drawable/bocaperro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/btnlogin"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
