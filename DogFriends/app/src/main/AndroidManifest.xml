@@ -30,7 +30,7 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".Mapa"
+            android:name=".controlador.Mapa"
             android:label="@string/title_activity_mapa"></activity>
         <activity android:name=".controlador.Menu"></activity>
         <activity android:name=".controlador.DogPin" />
