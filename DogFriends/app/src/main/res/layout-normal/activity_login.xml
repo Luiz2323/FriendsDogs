@@ -6,106 +6,110 @@
     android:layout_height="match_parent"
     tools:context=".controlador.Login">
 
-    <ImageView
-        android:id="@+id/logo"
-        android:layout_width="223dp"
-        android:layout_height="227dp"
-        android:layout_marginTop="4dp"
-        android:src="@drawable/logn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imglocalization"
-        android:layout_width="58dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="4dp"
-        android:src="@drawable/localizacion"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/singin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/letra"
-        android:text="Sing in"
-        android:textColor="#672117"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/txtemail"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo"
-        app:layout_constraintVertical_bias="0.0" />
-
-
-    <EditText
-        android:id="@+id/textDocumento"
-        android:layout_width="317dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="40dp"
-        android:background="@drawable/editex_form"
-        android:hint="Numero de documento"
-        android:paddingLeft="50dp"
-        android:paddingTop="-30dp"
-        android:paddingEnd="30dp"
-        android:paddingRight="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtemail" />
-
-    <EditText
-        android:id="@+id/txtemail"
-        android:layout_width="317dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="80dp"
-        android:background="@drawable/editex_form"
-        android:hint="Email"
-        android:paddingLeft="50dp"
-        android:paddingTop="-30dp"
-        android:paddingEnd="30dp"
-        android:paddingRight="30dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo" />
-
-    <Button
-        android:id="@+id/btnlogin"
-        android:layout_width="259dp"
-        android:layout_height="62dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginBottom="-50dp"
-        android:background="@drawable/btn_form"
-        android:fontFamily="@font/letra"
-        android:text="Login"
-        android:textColor="#672117"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textDocumento" />
-
-    <LinearLayout
-        android:id="@+id/linearLayout"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:orientation="horizontal"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnlogin"
-        app:layout_constraintVertical_bias="0.285"
-        tools:layout_editor_absoluteX="0dp">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="223dp"
+                android:layout_height="227dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/logn"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imglocalization"
+                android:layout_width="58dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/localizacion"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/singin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/letra"
+                android:text="Sing in"
+                android:textColor="#672117"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toTopOf="@+id/txtemail"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/logo"
+                app:layout_constraintVertical_bias="0.0" />
 
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="504dp"
-            android:layout_height="307dp"
-            android:src="@drawable/bocaperro"
-            android:layout_marginLeft="-60dp" />
+            <EditText
+                android:id="@+id/textDocumento"
+                android:layout_width="317dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/editex_form"
+                android:hint="Numero de documento"
+                android:paddingLeft="50dp"
+                android:paddingTop="-30dp"
+                android:paddingEnd="30dp"
+                android:paddingRight="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtemail" />
+
+            <EditText
+                android:id="@+id/txtemail"
+                android:layout_width="317dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="80dp"
+                android:background="@drawable/editex_form"
+                android:hint="Email"
+                android:paddingLeft="50dp"
+                android:paddingTop="-30dp"
+                android:paddingEnd="30dp"
+                android:paddingRight="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+            <Button
+                android:id="@+id/btnlogin"
+                android:layout_width="259dp"
+                android:layout_height="62dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="-50dp"
+                android:background="@drawable/btn_form"
+                android:fontFamily="@font/letra"
+                android:text="Login"
+                android:textColor="#672117"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textDocumento" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnlogin"
+                app:layout_constraintVertical_bias="0.285"
+                tools:layout_editor_absoluteX="0dp"/>
 
 
-    </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

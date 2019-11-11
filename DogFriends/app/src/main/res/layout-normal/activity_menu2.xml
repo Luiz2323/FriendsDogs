@@ -83,17 +83,6 @@
         app:layout_constraintVertical_bias="0.523" />
 
     <ImageView
-        android:id="@+id/toolbar"
-        android:layout_width="425dp"
-        android:layout_height="150dp"
-        android:layout_marginTop="12dp"
-        android:src="@drawable/toolbar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnhistorias" />
-
-    <ImageView
         android:id="@+id/btncinfigcount"
         android:layout_width="67dp"
         android:layout_height="41dp"

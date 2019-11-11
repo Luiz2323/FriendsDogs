@@ -80,17 +80,6 @@
         app:layout_constraintTop_toBottomOf="@+id/btnnotas" />
 
     <ImageView
-        android:id="@+id/toolbar"
-        android:layout_width="857dp"
-        android:layout_height="480dp"
-        android:layout_marginTop="24dp"
-        android:src="@drawable/toolbar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnhistorias" />
-
-    <ImageView
         android:id="@+id/btncinfigcount"
         android:layout_width="154dp"
         android:layout_height="72dp"

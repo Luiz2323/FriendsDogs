@@ -85,14 +85,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textDocumento" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="491dp"
-        android:layout_height="431dp"
-        android:src="@drawable/bocaperro"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnlogin"
-        tools:ignore="MissingConstraints" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
